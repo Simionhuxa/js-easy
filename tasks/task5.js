@@ -3,7 +3,14 @@
 
 
 function countOccurrences(str, char) {
-  //Ваш код
+  let count=0;
+  let arr =[...str];
+  for(let i = 0;i<str.length;i++){
+    if(arr[i]===char){
+      count++;
+    }
+  }
+  return count;
 }
 
 // Приклади використання:
